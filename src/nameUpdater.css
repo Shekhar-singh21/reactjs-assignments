@@ -1,0 +1,15 @@
+.form{
+    padding: 5rem;
+    gap: 1rem;
+}
+.input{
+    padding: 0.5rem;
+    width: 400px;
+    border-radius: 8px;
+}
+.btn{
+    padding: 0.5rem;
+    background-color: aqua;
+    width: 70px;
+    border-radius: 8px;
+}
