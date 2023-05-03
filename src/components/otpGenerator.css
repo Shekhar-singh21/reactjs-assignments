@@ -1,0 +1,29 @@
+.validator{
+
+    
+    padding: 1rem;
+
+}
+input {
+    width: 400px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+
+}
+button{
+    background-color: rgb(61, 4, 114);
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
