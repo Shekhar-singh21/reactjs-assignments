@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+.btnlgn{
+    padding: 0.3rem 1rem;
+    font-size: 700;
+    font-size: 1rem;
+    background-color: darkblue;
+    color: aliceblue;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-family: 'Bruno Ace SC', cursive;
+
+}
+@media screen and (max-width:768px) {
+    .btnlgn{
+        display: none;
+    }
+    
+}

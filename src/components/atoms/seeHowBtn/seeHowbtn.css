@@ -1,0 +1,10 @@
+.btn-showHow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: aliceblue;
+    color: rgb(0, 145, 255);
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+}

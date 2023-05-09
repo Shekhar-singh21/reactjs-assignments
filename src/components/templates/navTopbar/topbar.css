@@ -1,0 +1,12 @@
+.top-contents{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 100%;
+    z-index: index;
+    overflow-y: scroll;
+}
+

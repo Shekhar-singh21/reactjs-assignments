@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+.nav-lists{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Bruno Ace SC', cursive;;
+    
+}
+@media screen and (max-width:768px) {
+    .nav-lists{
+        display: none;
+    }
+    
+}
+
+
