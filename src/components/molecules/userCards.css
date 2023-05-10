@@ -1,0 +1,12 @@
+.cards{
+    width: 70%;
+    margin: auto;
+    margin-top: 8rem;
+    display: flex;
+    overflow: auto;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+.cards::-webkit-scrollbar {
+    display: none;
+  }
