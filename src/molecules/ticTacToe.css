@@ -1,0 +1,31 @@
+.container{
+    width: 50%;
+    height: 50vh;
+    /* background-color: aqua; */
+    margin-top: 12%;
+    margin-left: 18%;
+    display: flex;
+    justify-content: center;
+    /* color: wwhite; */
+
+}
+button{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(165, 42, 134);
+    border-radius: 1rem;
+
+}
+span{
+    font-size: 2rem;
+    background-color: greenyellow;
+    height: 40px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+h4{
+    margin: auto;
+    background-color: rgb(220, 157, 20);
+    padding: 1rem;
+    border-radius: 1rem;
+}
