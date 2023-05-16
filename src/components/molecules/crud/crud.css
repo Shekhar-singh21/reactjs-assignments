@@ -1,0 +1,16 @@
+.wrapper{
+    font-size: 1.4rem;
+}
+
+.set-tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lists{
+    display: flex;
+    gap: 2rem;
+}
+li{
+    margin-top: 2rem;
+}
