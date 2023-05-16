@@ -1,6 +1,8 @@
 import React from 'react'
 import './navlinks.css'
 import LoginBtn from '../../atoms/login/loginBtn'
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -12,11 +14,11 @@ export default function NavLinks(){
     return(
         <div className='navlinks-wrapper'>
         <ul className='nav-lists'>
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Projects</a></li>
-            <li><a>Videos</a></li>
-            <li><a>Contact</a></li>
+            <li><a><Link to={'/'}> Home </Link></a></li>
+            <li><a><Link to={'/About'}>About </Link></a></li>
+            <li><a><Link to={'/Projects'}>Projects </Link></a></li>
+            <li><a><Link to={'/Videos'}>Videos </Link></a></li>
+            <li><a><Link to={'/Contact'}>Contact </Link></a></li>
             <LoginBtn/>
             
 
