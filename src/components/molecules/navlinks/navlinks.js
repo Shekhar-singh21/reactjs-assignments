@@ -2,6 +2,8 @@ import React from 'react'
 import './navlinks.css'
 import LoginBtn from '../../atoms/login/loginBtn'
 import { Link } from 'react-router-dom'
+import Home from '../../atoms/navPages/home'
+import About from '../../atoms/navPages/about'
 
 
 

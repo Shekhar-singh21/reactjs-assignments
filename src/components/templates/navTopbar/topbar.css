@@ -6,7 +6,7 @@
     background-color: blueviolet;
     color: aliceblue;
     width: 100%;
-    z-index: index;
-    overflow-y: scroll;
+    z-index: 1;
+    /* overflow-y: scroll; */
 }
 

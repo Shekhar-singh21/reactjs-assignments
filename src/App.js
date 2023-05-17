@@ -9,6 +9,8 @@ function App() {
     <div className="App">
     <Header/>
     <HeroSection/>
+    <Routing/>
+    
     
       
     </div>
