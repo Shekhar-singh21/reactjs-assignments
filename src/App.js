@@ -1,10 +1,11 @@
 
 import './App.css';
-import NameUpdater from './nameUpdater';
+import SearchBar from './components/molecules/searchbar/searchbar';
 
 function App() {
   return (
     <div className="App">
+    <SearchBar/>
     
       
     </div>
