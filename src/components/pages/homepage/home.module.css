@@ -1,0 +1,63 @@
+.wrapper {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .movieList {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    list-style: none;
+  }
+  
+  .movieList img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .movieList h1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .movieList h5 {
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 5px;
+  }
+  
+  .movieList p {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 10px;
+  }
+  
+  .movieList button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .movieList button:hover {
+    background-color: #2980b9;
+  }
+  
