@@ -1,0 +1,63 @@
+.studentLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.studentLogin h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.studentLogin .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.studentLogin .form label {
+  font-size: 14px;
+}
+
+.studentLogin .form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.studentLogin .form .checkbox label {
+  font-size: 12px;
+}
+
+.studentLogin .form .checkbox input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+}
+
+.studentLogin .form input[type="email"],
+.studentLogin .form input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.studentLogin .form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.studentLogin .form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Add any additional styles as needed */

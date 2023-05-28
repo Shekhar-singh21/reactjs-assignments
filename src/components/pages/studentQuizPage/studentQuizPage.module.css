@@ -1,0 +1,39 @@
+.studentPage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .studentPage h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .studentPage div {
+    margin-bottom: 20px;
+  }
+  
+  .studentPage p {
+    margin-bottom: 10px;
+  }
+  
+  .studentPage input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .studentPage .result {
+    margin-top: 20px;
+  }
+  
+  .studentPage .result h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .studentPage .result p {
+    margin-bottom: 10px;
+  }

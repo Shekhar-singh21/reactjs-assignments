@@ -1,0 +1,11 @@
+.AdminIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90%;
+    background-color: rgb(70, 129, 166);
+    /* width: 50%; */
+    height: 300px;
+    line-height: 2;
+}

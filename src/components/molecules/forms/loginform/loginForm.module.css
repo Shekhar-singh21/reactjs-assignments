@@ -1,0 +1,58 @@
+.loginform {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .loginform h3 {
+    text-align: center;
+  }
+  
+  .loginform .form {
+    margin-top: 20px;
+    width: 280px;
+    line-height: 3;
+  }
+  
+  .loginform .form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .loginform .form .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    /* justify-content: center;   */
+  }
+  
+  .loginform .form .checkbox input {
+    margin-right: 10px;
+  }
+  
+  .loginform .form .checkbox label {
+    font-size: 14px;
+  }
+  
+  .loginform .form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .loginform .form button:hover {
+    background-color: #555;
+  }
+  

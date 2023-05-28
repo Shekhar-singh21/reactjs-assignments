@@ -1,0 +1,10 @@
+.btn{
+
+    padding: 0.5rem ;
+    font-size: 1rem;
+    background-color: rgb(108, 199, 242);
+    border-radius: 0.5rem;
+    border: none;
+    color: azure;
+    width: 100%;
+}
