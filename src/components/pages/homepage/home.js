@@ -19,10 +19,10 @@ export default function Home() {
     }, [dispatch]);
 
     console.log(movies)
-    function handleFavorite(movies) {
-        dispatch(addToFavorites(movies));
-        alert("Added in favorite list")
-    }
+    function handleFavorite(movie) {
+        dispatch(addToFavorites(movie));
+        alert("Added to favorite list");
+      }
 
     if (loading) {
         return <div>Loading...</div>;
@@ -50,7 +50,7 @@ export default function Home() {
                             <h1>{movie.Title}</h1>
                             <h5> {movie.Year}</h5>
                             <p>{movie.imdbID}</p>
-                 <Button text="Add to Favorite" performTask={() => handleFavorite(movies)} />
+                 <Button text="Add to Favorite" performTask={() => handleFavorite(movie)} />
 
 
                         </li>

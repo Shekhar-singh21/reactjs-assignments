@@ -10,7 +10,7 @@ const favoritesSlice = createSlice({
       state.favorites.push(action.payload);
     },
     removeFromFavorites(state, action) {
-      state.favorites = state.favorites.filter((movie) => movie.id !== action.payload);
+      state.favorites = state.favorites.filter((movie) => movie.imdbID !== action.payload);
     },
   },
 });
