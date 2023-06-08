@@ -1,17 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import { Slider } from '@mui/material';
+import Modal from './components/molecules/modal/modal';
+import Editable from './components/molecules/editable/editable';
 
 function App() {
   return (
     <div className="App">
-    <Slider
-  size="small"
-  defaultValue={70}
-  aria-label="Small"
-  valueLabelDisplay="auto"
-/>
-<Slider defaultValue={50} aria-label="Default" valueLabelDisplay="auto" />
+     <Editable/>
+
     
     </div>
   );
