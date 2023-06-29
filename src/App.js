@@ -1,13 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import { Slider } from '@mui/material';
-import Modal from './components/molecules/modal/modal';
-import Editable from './components/molecules/editable/editable';
+import Calculator from './components/calculator/Calculator';
+
 
 function App() {
   return (
     <div className="App">
-     <Editable/>
+    <Calculator/>
 
     
     </div>
