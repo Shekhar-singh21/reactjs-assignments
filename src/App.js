@@ -1,13 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-import { Slider } from '@mui/material';
-import Modal from './components/molecules/modal/modal';
-import Editable from './components/molecules/editable/editable';
+
+import { Provider } from 'react-redux';
+import Form from './form/Form';
+import {store} from './store/store';
+import FormShow from './formShow/FormShow';
+
 
 function App() {
   return (
     <div className="App">
-     <Editable/>
+
+    <Provider store={store}>
+      <Form/>
+      <FormShow/>
+    </Provider>
 
     
     </div>
